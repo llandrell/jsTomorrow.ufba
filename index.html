@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    </head>
+<body>
+    <script>
+        let nome = prompt("Informe o nome do aluno");
+        let nota1 = parseFloat(prompt("informe a nota 1"));
+        let nota2 = parseFloat(prompt("informe a nota 2"));
+        let nota3 = parseFloat(prompt("informe a nota 3"));
+        let nota4 = parseFloat(prompt("informe a nota 4"));
+
+        let notaFinal = ((nota1 + nota2 + nota3 + nota4) / 4)
+
+        document.write(`A media final do aluno: ${nome} é ${notaFinal.toFixed(2)}`);
+    </script>    
+</body>
+</html>
